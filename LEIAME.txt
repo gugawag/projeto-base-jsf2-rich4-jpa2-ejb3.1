@@ -1,5 +1,8 @@
-== Informações Importantes ==
+== InformaÁıções Importantes ==
 
+- Projeto montado no Eclipse Indigo (Mac) com JBoss Tools. Para montar ambiente similar, veja: http://gugawag.wordpress.com/2011/07/24/configurando-jboss-tools-jee-6-no-eclipse-indigo-e-jboss-7/ 
+- Provavelmente seu projeto est· com uma exclamaÁ„o. Isso se deve ‡ configuraÁ„o das bibliotecas da JVM e do JBoss. Clique com bot„o direito no projeto ->
+Properties -> Java Build Path -> Aba Libraries. Remova a jre e o jboss e clique em Add Library... para acrescentar as bibliotecas corretas do seu Eclipse;
 - Tecnologias utilizadas (JEE 6): JSF 2; Richfaces 4; EJB 3.1; JPA 2; Banco de dados H2 (embutido no JBoss 7);
 - Onde houver no cóÛdigo o padrã„o AFAZER: é para alteraÁıções necess·árias para que o projeto funcione corretamente (procure j· por este padr„o para configurar o projeto);
 - Onde houver no cóÛdigo comentá·rio com o padr„ão AVISO: serve para indicar o uso de alguma tecnologia/recurso;
