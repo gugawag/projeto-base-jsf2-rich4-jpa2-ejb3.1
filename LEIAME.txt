@@ -1,5 +1,4 @@
 == Informaçõ›es Importantes ==
-
 - Projeto montado no Eclipse Indigo (Mac) com JBoss Tools. Para montar ambiente similar, veja: http://gugawag.wordpress.com/2011/07/24/configurando-jboss-tools-jee-6-no-eclipse-indigo-e-jboss-7/ 
 - Provavelmente seu projeto está com uma exclamação. Isso se deve à configuração das bibliotecas da JVM e do JBoss. Clique com botão direito no projeto ->
 Properties -> Java Build Path -> Aba Libraries. Remova a jre e o jboss e clique em Add Library... para acrescentar as bibliotecas corretas do seu Eclipse;
